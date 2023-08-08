@@ -14,7 +14,7 @@ st.subheader(f"{option} for the next {days} days in {place}")
 if place:
     #Get the temperature /skydata
     try:
-        filtered_data =get_data(place,days)
+        filtered_data = get_data(place,days)
 
 
         if option =="Temperature":
