@@ -1,5 +1,6 @@
 import streamlit as st
 import plotly.express as px
+from backend import get_data
 
 st.title("Weather Forecast For The Next Days ")
 place = st.text_input("Place:")
